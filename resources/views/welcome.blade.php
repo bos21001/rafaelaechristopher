@@ -8,7 +8,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
+
+    <style>
+        body,
+        h1,
+        h2 {
+            font-family: "Raleway", sans-serif;
+        }
+
+        body,
+        html {
+            height: 100%;
+        }
+
+        p {
+            line-height: 2;
+        }
+
+        .bgimg,
+        .bgimg2 {
+            min-height: 100%;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .bgimg {
+            background-image: url("img/aliança_costas.jpg");
+        }
+
+        .bgimg2 {
+            background-image: url("img/maos_dadas1.jpg");
+        }
+
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            padding-top: 30px;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe,
+        .video-container object,
+        .video-container embed {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+    </style>
+
 </head>
 
 <body>
