@@ -3,12 +3,12 @@
 
 <head>
     <title>Rafaela & Christopher</title>
-    <link rel="shortcut icon" href="img/wedding_icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('img/wedding_icon.png') }}" type="image/x-icon">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ asset('app.css') }}">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
     <div id="us">
         <div class="w3-content">
             <h1 class="w3-center w3-text-grey"><b>Rafaela & Christopher</b></h1>
-            <img src="img/pedido_casamento.jpg" style="width: 100%; margin: 32px 0" />
+            <img src="{{ asset('img/pedido_casamento.jpg') }}" style="width: 100%; margin: 32px 0" />
             <div style="text-align: justify; padding-inline: 50px;">
                 <p>
                     Seja bem-vindo(a) ao site do nosso casamento. Se você está aqui agora, isso significa que você é uma
@@ -75,7 +75,7 @@
         <p class="w3-large"> Clique no botão abaixo para acessar a lista de presentes da MagazineLuiza
         </p>
         <p class="w3-xlarge">
-            <button onclick="window.open('http://finalfeliz.de/rafaelaechristopher', '_blank')"
+            <button onclick="window.open('https://finalfeliz.de/rafaelaechristopher', '_blank')"
                 class="w3-button w3-round w3-blue w3-opacity w3-hover-opacity-off" style="padding: 8px 60px">
                 <strong>Acessar 🎁</strong>
             </button>
